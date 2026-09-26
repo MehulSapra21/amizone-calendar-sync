@@ -1,8 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-ocean: #006994;
+  --color-ocean-light: #008cba;
+  --color-ocean-dark: #004b6b;
+}
 
 body {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
 }
